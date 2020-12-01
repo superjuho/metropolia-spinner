@@ -1,0 +1,26 @@
+body {
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	background-color: darkslategray;
+}
+
+@keyframes spinner {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+#metropolia-logo {
+	width: 100px;
+	position: absolute;
+	top: 160px;
+	right: 60px;
+	animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "metropolia-spinner",
+  "version": "0.0.0",
+  "description": "Spinner for streams",
+  "homepage": "",
+  "author": {
+    "name": "superjuho",
+    "email": "puurunen.tuho@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "spinner",
+        "title": "Spinner",
+        "width": 2,
+        "file": "spinner.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "metropolia-spinner.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "Apache-2.0"
+}
