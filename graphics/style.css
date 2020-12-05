@@ -2,7 +2,6 @@ body {
   width: 1920px;
   height: 1080px;
   overflow: hidden;
-  background-color: darkslategray;
 }
 
 @keyframes spinner {
@@ -15,10 +14,10 @@ body {
 }
 
 #metropolia-logo {
-  width: 100px;
+  width: 90px;
   position: absolute;
-  top: 160px;
-  right: 60px;
+  top: 40px;
+  right: 140px;
   animation-name: spinner;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
